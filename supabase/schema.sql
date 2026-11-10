@@ -76,6 +76,8 @@ create table if not exists public.set_logs (
 
 create index if not exists set_logs_user_exercise_time
   on public.set_logs (user_id, exercise_id, logged_at desc);
+create index if not exists set_logs_user_logged_at
+  on public.set_logs (user_id, logged_at desc);
 create index if not exists workout_sessions_user_started
   on public.workout_sessions (user_id, started_at desc);
 

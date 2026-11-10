@@ -21,6 +21,19 @@ type MapEntry = {
 
 const map = gifMap as Record<string, MapEntry>;
 
+const nameAlias: Record<string, string> = {
+  "lat pulldown": "Lat pulldown",
+  "reverse grip lat pulldown": "Reverse-grip lat pulldown",
+};
+
+function normalizeExerciseName(name: string): string {
+  const trimmed = name.trim();
+  if (map[trimmed]) return trimmed;
+  const alias = nameAlias[trimmed.toLowerCase()];
+  if (alias && map[alias]) return alias;
+  return trimmed;
+}
+
 /** Prefer curated map (strict match) over whatever is stored in the DB. */
 export function resolveExerciseMedia(ex: ExerciseMediaFields): {
   video_url: string | null;
@@ -28,7 +41,7 @@ export function resolveExerciseMedia(ex: ExerciseMediaFields): {
   video_attribution: string | null;
   focus_muscles: string[] | null;
 } {
-  const hit = map[ex.name];
+  const hit = map[ex.name] ?? map[normalizeExerciseName(ex.name)];
   if (hit) {
     return {
       video_url: hit.gifUrl,

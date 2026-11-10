@@ -18,7 +18,7 @@ const ROUTINE_SLUGS = [
   "barbell-shrug",
   "push-up",
   "pull-up",
-  "cable-lat-pulldown-full-range-of-motion",
+  "lever-front-pulldown",
   "barbell-bent-over-row",
   "reverse-grip-machine-lat-pulldown",
   "cable-seated-row",

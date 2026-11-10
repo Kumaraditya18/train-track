@@ -1,7 +1,10 @@
+"use client";
+
 import { SITE } from "@/config/site";
 import { signOut } from "@/app/actions/auth";
 import { MemberNav } from "@/components/shell/MemberNav";
 import type { ReactNode } from "react";
+import { useState } from "react";
 
 export function MemberShell({
   children,
@@ -12,6 +15,8 @@ export function MemberShell({
   displayName: string;
   isAdmin: boolean;
 }) {
+  const [navPending, setNavPending] = useState(false);
+
   return (
     <div className="member-shell app-canvas mx-auto min-h-dvh w-full max-w-lg text-fg">
       <header className="glass-chrome member-header z-30 mx-3 mt-3 shrink-0 rounded-[1.25rem] px-1">
@@ -31,13 +36,20 @@ export function MemberShell({
         </div>
       </header>
 
-      <main className="member-main relative z-[1] min-h-0 min-w-0 flex-1 px-4 py-5 sm:px-5">{children}</main>
+      <main
+        aria-busy={navPending}
+        className={`member-main relative z-[1] min-h-0 min-w-0 flex-1 px-4 py-5 transition-opacity duration-150 sm:px-5 ${
+          navPending ? "opacity-70" : "opacity-100"
+        }`}
+      >
+        {children}
+      </main>
 
       <div
         className="z-40 shrink-0 px-3 pb-3"
         style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom, 0px))" }}
       >
-        <MemberNav showAdmin={isAdmin} />
+        <MemberNav showAdmin={isAdmin} onPendingChange={setNavPending} />
       </div>
     </div>
   );

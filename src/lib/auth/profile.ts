@@ -1,14 +1,15 @@
 import { createClient, hasSupabaseEnv } from "@/lib/supabase/server";
 import type { Profile } from "@/lib/training/types";
+import { cache } from "react";
 import { redirect } from "next/navigation";
 
-export async function getSessionUser() {
+export const getSessionUser = cache(async () => {
   if (!hasSupabaseEnv()) return null;
   const supabase = await createClient();
   const { data, error } = await supabase.auth.getUser();
   if (error || !data.user) return null;
   return data.user;
-}
+});
 
 export async function requireUser() {
   const user = await getSessionUser();
@@ -16,7 +17,7 @@ export async function requireUser() {
   return user;
 }
 
-export async function getProfile(userId: string): Promise<Profile | null> {
+export const getProfile = cache(async (userId: string): Promise<Profile | null> => {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("profiles")
@@ -26,14 +27,14 @@ export async function getProfile(userId: string): Promise<Profile | null> {
 
   if (error || !data) return null;
   return data as Profile;
-}
+});
 
-export async function requireProfile(): Promise<Profile> {
+export const requireProfile = cache(async (): Promise<Profile> => {
   const user = await requireUser();
   const profile = await getProfile(user.id);
   if (!profile) redirect("/login");
   return profile;
-}
+});
 
 export async function requireAdmin(): Promise<Profile> {
   const profile = await requireProfile();

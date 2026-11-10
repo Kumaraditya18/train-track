@@ -15,8 +15,7 @@ function sortSplitRoutines(a: Routine, b: Routine): number {
 }
 
 export default async function WorkoutPickerPage() {
-  await requireProfile();
-  const today = await loadMemberToday();
+  const [, today] = await Promise.all([requireProfile(), loadMemberToday()]);
   const supabase = await createClient();
   const { data: routines } = await supabase
     .from("routines")

@@ -18,7 +18,7 @@ export const SLUG_OVERRIDES = {
   "Pendlay row": "barbell-pendlay-row",
   "Pull-up": "pull-up",
   "Chin-up": "chin-up",
-  "Lat pulldown": "cable-lat-pulldown-full-range-of-motion",
+  "Lat pulldown": "lever-front-pulldown",
   "Reverse-grip lat pulldown": "reverse-grip-machine-lat-pulldown",
   "Seated cable row": "cable-seated-row",
   "Chest-supported row": "dumbbell-incline-row",

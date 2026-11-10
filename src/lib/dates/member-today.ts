@@ -3,6 +3,7 @@ import { isoWeekKey } from "@/lib/dates/iso-week";
 import { formatIsoWeekRangeIst } from "@/lib/dates/week-display";
 import type { Routine } from "@/lib/training/types";
 import { createClient } from "@/lib/supabase/server";
+import { cache } from "react";
 
 export type MemberToday = {
   weekKey: string;
@@ -12,7 +13,7 @@ export type MemberToday = {
   todaysRoutine: Routine | null;
 };
 
-export async function loadMemberToday(): Promise<MemberToday> {
+export const loadMemberToday = cache(async (): Promise<MemberToday> => {
   const now = new Date();
   const splitDay = splitDayIndex(now);
   const weekKey = isoWeekKey(now);
@@ -43,4 +44,4 @@ export async function loadMemberToday(): Promise<MemberToday> {
     isRestDay: false,
     todaysRoutine: (data as Routine | null) ?? null,
   };
-}
+});

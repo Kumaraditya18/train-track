@@ -2069,10 +2069,10 @@
     "video_attribution": "Kettlebell Swing · ExerciseGymGifsDB (jsDelivr)"
   },
   "Lat pulldown": {
-    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/cable-lat-pulldown-full-range-of-motion.gif",
-    "matchedName": "Cable Lat Pulldown Full Range Of Motion",
-    "method": "catalog",
-    "score": 100,
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/lever-front-pulldown.gif",
+    "matchedName": "Lever Front Pulldown",
+    "method": "override",
+    "score": 1000,
     "focus_muscles": [
       "lats",
       "biceps",
@@ -2080,7 +2080,7 @@
       "delts"
     ],
     "video_source": "gifdb",
-    "video_attribution": "Cable Lat Pulldown Full Range Of Motion · ExerciseGymGifsDB (jsDelivr)"
+    "video_attribution": "Lever Front Pulldown · ExerciseGymGifsDB (jsDelivr)"
   },
   "Lateral raise": {
     "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-lateral-raise.gif",

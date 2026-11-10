@@ -1,8 +1,19 @@
-const CACHE = "train-and-track-v16";
+const CACHE = "train-and-track-v18";
 const SHELL = ["/", "/manifest.webmanifest", "/icon.svg"];
 
 function isNextAsset(url) {
   return url.pathname.startsWith("/_next/") || url.pathname.startsWith("/__next");
+}
+
+function isAppDataRequest(url, request) {
+  if (url.searchParams.has("_rsc")) return true;
+  const accept = request.headers.get("accept") ?? "";
+  if (accept.includes("text/x-component")) return true;
+  if (request.headers.get("rsc") === "1") return true;
+  if (request.headers.get("next-router-prefetch")) return true;
+  if (request.headers.get("next-router-state-tree")) return true;
+  if (request.headers.get("next-action")) return true;
+  return false;
 }
 
 self.addEventListener("install", (event) => {
@@ -22,8 +33,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
-  // Never cache Next.js build assets — stale JS causes React hydration mismatches.
-  if (isNextAsset(url)) {
+  if (isNextAsset(url) || isAppDataRequest(url, event.request)) {
     event.respondWith(fetch(event.request));
     return;
   }

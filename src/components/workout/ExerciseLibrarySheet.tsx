@@ -1,25 +1,19 @@
 "use client";
 
 import { addExerciseToSession } from "@/app/actions/session-exercises";
+import { searchExerciseCatalog, type CatalogExercise } from "@/app/actions/exercises";
+import { EXERCISE_MUSCLE_GROUPS } from "@/data/exercise-muscle-groups";
 import { Button } from "@/components/ui/Button";
-import { useMemo, useState, useTransition } from "react";
-
-type CatalogExercise = {
-  id: string;
-  name: string;
-  muscle_group: string | null;
-};
+import { useEffect, useMemo, useState, useTransition } from "react";
 
 export function ExerciseLibrarySheet({
   sessionId,
-  catalog,
   inSessionIds,
   isRoutineSession,
   onClose,
   onAdded,
 }: {
   sessionId: string;
-  catalog: CatalogExercise[];
   inSessionIds: Set<string>;
   isRoutineSession: boolean;
   onClose: () => void;
@@ -29,23 +23,37 @@ export function ExerciseLibrarySheet({
   const [muscle, setMuscle] = useState<string | "all">("all");
   const [error, setError] = useState<string | null>(null);
   const [pending, startTransition] = useTransition();
+  const [loading, setLoading] = useState(true);
+  const [results, setResults] = useState<CatalogExercise[]>([]);
+  const muscleGroups = EXERCISE_MUSCLE_GROUPS;
 
-  const muscleGroups = useMemo(() => {
-    const groups = new Set<string>();
-    for (const ex of catalog) {
-      if (ex.muscle_group) groups.add(ex.muscle_group);
-    }
-    return [...groups].sort();
-  }, [catalog]);
+  const excludeIds = useMemo(() => [...inSessionIds], [inSessionIds]);
 
-  const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return catalog
-      .filter((ex) => !inSessionIds.has(ex.id))
-      .filter((ex) => muscle === "all" || ex.muscle_group === muscle)
-      .filter((ex) => !q || ex.name.toLowerCase().includes(q))
-      .slice(0, 40);
-  }, [catalog, inSessionIds, muscle, query]);
+  useEffect(() => {
+    let cancelled = false;
+    const q = query.trim();
+    const timer = window.setTimeout(
+      async () => {
+        setLoading(true);
+        const res = await searchExerciseCatalog({
+          query: q.length >= 2 ? q : undefined,
+          muscle: muscle === "all" ? undefined : muscle,
+          excludeIds,
+          limit: 40,
+        });
+        if (!cancelled) {
+          setResults(res.data);
+          if (res.error) setError(res.error);
+          setLoading(false);
+        }
+      },
+      q.length >= 2 ? 280 : 0,
+    );
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timer);
+    };
+  }, [query, muscle, excludeIds]);
 
   function onAdd(exerciseId: string) {
     setError(null);
@@ -87,19 +95,25 @@ export function ExerciseLibrarySheet({
           ))}
         </div>
         <ul className="max-h-56 space-y-0.5 overflow-y-auto overscroll-contain">
-          {filtered.map((ex) => (
-            <li key={ex.id}>
-              <button
-                type="button"
-                disabled={pending}
-                onClick={() => onAdd(ex.id)}
-                className="flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2.5 text-left text-sm transition-colors hover:bg-elevated"
-              >
-                <span className="truncate font-medium text-fg">{ex.name}</span>
-                <span className="shrink-0 text-xs text-faint">{ex.muscle_group}</span>
-              </button>
-            </li>
-          ))}
+          {loading ? (
+            <li className="px-3 py-6 text-center text-sm text-muted">Loading…</li>
+          ) : results.length === 0 ? (
+            <li className="px-3 py-6 text-center text-sm text-muted">No matches. Try another search.</li>
+          ) : (
+            results.map((ex) => (
+              <li key={ex.id}>
+                <button
+                  type="button"
+                  disabled={pending}
+                  onClick={() => onAdd(ex.id)}
+                  className="flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2.5 text-left text-sm transition-colors hover:bg-elevated"
+                >
+                  <span className="truncate font-medium text-fg">{ex.name}</span>
+                  <span className="shrink-0 text-xs text-faint">{ex.muscle_group}</span>
+                </button>
+              </li>
+            ))
+          )}
         </ul>
         {error ? <p className="mt-2 text-sm text-danger">{error}</p> : null}
       </div>

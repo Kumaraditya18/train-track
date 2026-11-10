@@ -1,6 +1,7 @@
 "use client";
 
 import { removeExerciseFromSession } from "@/app/actions/session-exercises";
+import { resolveExerciseMedia } from "@/lib/exercise/resolve-gif";
 import { ExerciseGuidePanel } from "@/components/workout/ExerciseGuidePanel";
 import { ExerciseLibrarySheet } from "@/components/workout/ExerciseLibrarySheet";
 import { SetLogForm } from "@/components/workout/SetLogForm";
@@ -22,12 +23,6 @@ export type WorkoutExercise = {
   isPlanned: boolean;
 };
 
-type CatalogExercise = {
-  id: string;
-  name: string;
-  muscle_group: string | null;
-};
-
 function defaultActiveId(
   exercises: WorkoutExercise[],
   nextSetByExercise: Record<string, number>,
@@ -47,14 +42,12 @@ export function WorkoutSessionView({
   finished,
   isRoutineSession,
   exercises,
-  catalog,
   nextSetByExercise,
 }: {
   sessionId: string;
   finished: boolean;
   isRoutineSession: boolean;
   exercises: WorkoutExercise[];
-  catalog: CatalogExercise[];
   nextSetByExercise: Record<string, number>;
 }) {
   const [activeId, setActiveId] = useState<string | null>(() =>
@@ -90,6 +83,25 @@ export function WorkoutSessionView({
   const plannedSets = current ? current.target_sets + extraSets : 0;
   const pastPlan = current ? nextSet > plannedSets : false;
 
+  const currentMedia = useMemo(() => {
+    if (!current) return null;
+    return resolveExerciseMedia({ name: current.name });
+  }, [current?.name]);
+
+  useEffect(() => {
+    if (finished || !next?.name) return;
+    const url = resolveExerciseMedia({ name: next.name }).video_url;
+    if (!url) return;
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = url;
+    document.head.appendChild(link);
+    return () => {
+      link.remove();
+    };
+  }, [finished, next?.name]);
+
   function goTo(id: string) {
     setActiveId(id);
     setQueueOpen(false);
@@ -102,7 +114,6 @@ export function WorkoutSessionView({
         {showAdd && !finished ? (
           <ExerciseLibrarySheet
             sessionId={sessionId}
-            catalog={catalog}
             inSessionIds={inSessionIds}
             isRoutineSession={isRoutineSession}
             onClose={() => setShowAdd(false)}
@@ -149,12 +160,13 @@ export function WorkoutSessionView({
 
           <ExerciseGuidePanel
             compact
+            exerciseId={current.id}
             exerciseName={current.name}
             instructions={current.instructions}
-            videoUrl={current.video_url}
-            videoSource={current.video_source}
-            videoAttribution={current.video_attribution}
-            focusMuscles={current.focus_muscles}
+            videoUrl={currentMedia?.video_url}
+            videoSource={currentMedia?.video_source}
+            videoAttribution={currentMedia?.video_attribution}
+            focusMuscles={currentMedia?.focus_muscles}
             muscleGroup={current.muscle_group}
           />
 
@@ -276,7 +288,6 @@ export function WorkoutSessionView({
       {showAdd && !finished ? (
         <ExerciseLibrarySheet
           sessionId={sessionId}
-          catalog={catalog}
           inSessionIds={inSessionIds}
           isRoutineSession={isRoutineSession}
           onClose={() => setShowAdd(false)}

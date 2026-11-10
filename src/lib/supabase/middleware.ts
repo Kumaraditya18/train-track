@@ -34,6 +34,15 @@ export async function updateSession(request: NextRequest) {
     },
   });
 
-  await supabase.auth.getUser();
+  const isRouterData =
+    request.headers.get("rsc") === "1" ||
+    request.headers.get("next-router-prefetch") === "1" ||
+    (request.headers.get("accept") ?? "").includes("text/x-component");
+
+  if (isRouterData) {
+    await supabase.auth.getSession();
+  } else {
+    await supabase.auth.getUser();
+  }
   return supabaseResponse;
 }

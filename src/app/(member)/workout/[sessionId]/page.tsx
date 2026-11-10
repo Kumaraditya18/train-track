@@ -8,8 +8,7 @@ import { notFound } from "next/navigation";
 
 type ItemRow = RoutineItem & { exercises: Exercise | Exercise[] | null };
 
-const exerciseSelect =
-  "id, name, muscle_group, instructions, video_url, video_source, video_attribution, focus_muscles";
+const exerciseSelect = "id, name, muscle_group";
 
 export default async function ActiveWorkoutPage({
   params,
@@ -31,21 +30,34 @@ export default async function ActiveWorkoutPage({
   const finished = Boolean(session.finished_at);
   const isRoutineSession = Boolean(session.routine_id);
 
-  let routineItems: ItemRow[] | null = null;
-  if (session.routine_id) {
-    const { data: items } = await supabase
-      .from("routine_items")
-      .select(`target_sets, rep_floor, sort_order, exercises(${exerciseSelect})`)
-      .eq("routine_id", session.routine_id)
-      .order("sort_order");
-    routineItems = (items as ItemRow[]) ?? [];
-  }
-
-  const { data: sessionItems } = await supabase
+  const sessionItemsQuery = supabase
     .from("session_exercises")
     .select(`target_sets, rep_floor, sort_order, exercises(${exerciseSelect})`)
     .eq("session_id", sessionId)
     .order("sort_order");
+
+  const logsQuery = supabase
+    .from("set_logs")
+    .select("exercise_id, set_index")
+    .eq("session_id", sessionId)
+    .order("set_index");
+
+  const routineItemsQuery = session.routine_id
+    ? supabase
+        .from("routine_items")
+        .select(`target_sets, rep_floor, sort_order, exercises(${exerciseSelect})`)
+        .eq("routine_id", session.routine_id)
+        .order("sort_order")
+    : null;
+
+  const [routineResult, sessionItemsResult, logsResult] = await Promise.all([
+    routineItemsQuery ?? Promise.resolve({ data: null }),
+    sessionItemsQuery,
+    logsQuery,
+  ]);
+
+  const routineItems = (routineResult.data as ItemRow[] | null) ?? null;
+  const sessionItems = sessionItemsResult.data;
 
   const exercises = mergeSessionExercises(
     routineItems,
@@ -53,21 +65,7 @@ export default async function ActiveWorkoutPage({
     isRoutineSession,
   );
 
-  const catalog = !finished
-    ? ((
-        await supabase
-          .from("exercises")
-          .select("id, name, muscle_group")
-          .not("video_url", "is", null)
-          .order("name")
-      ).data ?? [])
-    : [];
-
-  const { data: logs } = await supabase
-    .from("set_logs")
-    .select("exercise_id, set_index")
-    .eq("session_id", sessionId)
-    .order("set_index");
+  const logs = logsResult.data;
 
   const nextSetByExercise: Record<string, number> = {};
   for (const log of logs ?? []) {
@@ -99,11 +97,6 @@ export default async function ActiveWorkoutPage({
         finished={finished}
         isRoutineSession={isRoutineSession}
         exercises={exercises}
-        catalog={catalog.map((e) => ({
-          id: e.id,
-          name: e.name,
-          muscle_group: e.muscle_group,
-        }))}
         nextSetByExercise={nextSetByExercise}
       />
     </div>

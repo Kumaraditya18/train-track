@@ -1,5 +1,4 @@
 import type { WorkoutExercise } from "@/components/workout/WorkoutSessionView";
-import { resolveExerciseMedia } from "@/lib/exercise/resolve-gif";
 import type { Exercise, RoutineItem } from "@/lib/training/types";
 
 type ItemRow = RoutineItem & { exercises: Exercise | Exercise[] | null };
@@ -17,16 +16,15 @@ function mapExercise(
   rep_floor: number,
   isPlanned: boolean,
 ): WorkoutExercise {
-  const media = resolveExerciseMedia(ex);
   return {
     id: ex.id,
     name: ex.name,
     muscle_group: ex.muscle_group,
-    instructions: ex.instructions ?? null,
-    video_url: media.video_url,
-    video_source: media.video_source,
-    video_attribution: media.video_attribution,
-    focus_muscles: media.focus_muscles,
+    instructions: null,
+    video_url: null,
+    video_source: null,
+    video_attribution: null,
+    focus_muscles: null,
     target_sets,
     rep_floor,
     isPlanned,

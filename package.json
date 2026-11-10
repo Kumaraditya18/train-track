@@ -13,7 +13,9 @@
     "build:gifs": "node scripts/build-exercise-gif-map.mjs",
     "push:gifs": "node scripts/push-exercise-gifs.mjs",
     "generate:exercises": "node scripts/generate-gif-catalog-seed.mjs",
-    "sync:library": "node scripts/sync-gif-library.mjs"
+    "sync:library": "node scripts/sync-gif-library.mjs",
+    "bench:logs": "bash scripts/benchmark-set-logs.sh",
+    "db:index-logs": "bash scripts/apply-set-logs-index.sh"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
