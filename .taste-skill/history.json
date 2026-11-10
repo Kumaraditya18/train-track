@@ -1,0 +1,20 @@
+{
+  "palettes": [
+    "soot-pale-lime"
+  ],
+  "types": [
+    "chivo"
+  ],
+  "dealt": [
+    "chivo",
+    "funnel",
+    "instrument"
+  ],
+  "moments": [
+    {
+      "id": "letters-assemble",
+      "at": "2026-11-08T15:56:59.718Z",
+      "seed": "58e4fd06"
+    }
+  ]
+}

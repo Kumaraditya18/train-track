@@ -1,0 +1,2 @@
+-- Deprecated: wger names rarely match GIFs and clutter the library.
+-- Use seed-exercises.sql (199 common moves, all with GIFs).

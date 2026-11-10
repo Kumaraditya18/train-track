@@ -1,0 +1,2538 @@
+{
+  "Barbell Alternate Biceps Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-alternate-biceps-curl.gif",
+    "matchedName": "Barbell Alternate Biceps Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Alternate Biceps Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell back squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-full-squat.gif",
+    "matchedName": "Barbell Full Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Full Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Bench Front Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-bench-front-squat.gif",
+    "matchedName": "Barbell Bench Front Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Bench Front Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell bench press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-bench-press.gif",
+    "matchedName": "Barbell Bench Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Bench Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Bench Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-bench-squat.gif",
+    "matchedName": "Barbell Bench Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Bench Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Bent Arm Pullover": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/barbell-bent-arm-pullover.gif",
+    "matchedName": "Barbell Bent Arm Pullover",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "pectorals",
+      "triceps",
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Bent Arm Pullover · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Clean And Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-clean-and-press.gif",
+    "matchedName": "Barbell Clean And Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "triceps",
+      "delts",
+      "glutes",
+      "hamstrings",
+      "spine",
+      "traps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Clean And Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Clean Grip Front Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-clean-grip-front-squat.gif",
+    "matchedName": "Barbell Clean Grip Front Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves",
+      "spine",
+      "traps",
+      "delts",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Clean Grip Front Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-curl.gif",
+    "matchedName": "Barbell Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Decline Bench Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-decline-bench-press.gif",
+    "matchedName": "Barbell Decline Bench Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Decline Bench Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Decline Bent Arm Pullover": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/barbell-decline-bent-arm-pullover.gif",
+    "matchedName": "Barbell Decline Bent Arm Pullover",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "pectorals",
+      "triceps",
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Decline Bent Arm Pullover · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Decline Pullover": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-decline-pullover.gif",
+    "matchedName": "Barbell Decline Pullover",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Decline Pullover · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Decline Wide Grip Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-decline-wide-grip-press.gif",
+    "matchedName": "Barbell Decline Wide Grip Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Decline Wide Grip Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Decline Wide Grip Pullover": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/barbell-decline-wide-grip-pullover.gif",
+    "matchedName": "Barbell Decline Wide Grip Pullover",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "pectorals",
+      "triceps",
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Decline Wide Grip Pullover · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Drag Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-drag-curl.gif",
+    "matchedName": "Barbell Drag Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Drag Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Floor Calf Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/barbell-floor-calf-raise.gif",
+    "matchedName": "Barbell Floor Calf Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Floor Calf Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Front Chest Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-front-chest-squat.gif",
+    "matchedName": "Barbell Front Chest Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Front Chest Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Front Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-front-raise.gif",
+    "matchedName": "Barbell Front Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Front Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Front Raise And Pullover": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-front-raise-and-pullover.gif",
+    "matchedName": "Barbell Front Raise And Pullover",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Front Raise And Pullover · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Full Zercher Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-full-zercher-squat.gif",
+    "matchedName": "Barbell Full Zercher Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Full Zercher Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Good Morning": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/barbell-good-morning.gif",
+    "matchedName": "Barbell Good Morning",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Good Morning · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Guillotine Bench Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-guillotine-bench-press.gif",
+    "matchedName": "Barbell Guillotine Bench Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Guillotine Bench Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Hack Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-hack-squat.gif",
+    "matchedName": "Barbell Hack Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Hack Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell High Bar Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-high-bar-squat.gif",
+    "matchedName": "Barbell High Bar Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell High Bar Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Incline Reverse Grip Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-incline-reverse-grip-press.gif",
+    "matchedName": "Barbell Incline Reverse Grip Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Incline Reverse Grip Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Incline Row": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/barbell-incline-row.gif",
+    "matchedName": "Barbell Incline Row",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "upper-back",
+      "biceps",
+      "forearms",
+      "delts",
+      "lats"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Incline Row · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Incline Shoulder Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/serratus-anterior/barbell-incline-shoulder-raise.gif",
+    "matchedName": "Barbell Incline Shoulder Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "serratus-anterior"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Incline Shoulder Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Jefferson Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-jefferson-squat.gif",
+    "matchedName": "Barbell Jefferson Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Jefferson Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Jm Bench Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-jm-bench-press.gif",
+    "matchedName": "Barbell Jm Bench Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Jm Bench Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Lateral Lunge": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-lateral-lunge.gif",
+    "matchedName": "Barbell Lateral Lunge",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Lateral Lunge · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Low Bar Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-low-bar-squat.gif",
+    "matchedName": "Barbell Low Bar Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Low Bar Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Lunge": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-lunge.gif",
+    "matchedName": "Barbell Lunge",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Lunge · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Lying Close Grip Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-lying-close-grip-press.gif",
+    "matchedName": "Barbell Lying Close Grip Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Lying Close Grip Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Lying Extension": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-lying-extension.gif",
+    "matchedName": "Barbell Lying Extension",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Lying Extension · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Lying Lifting On Hip": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-lying-lifting-on-hip.gif",
+    "matchedName": "Barbell Lying Lifting On Hip",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Lying Lifting On Hip · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Lying Preacher Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-lying-preacher-curl.gif",
+    "matchedName": "Barbell Lying Preacher Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Lying Preacher Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Lying Triceps Extension": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-lying-triceps-extension.gif",
+    "matchedName": "Barbell Lying Triceps Extension",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Lying Triceps Extension · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Narrow Stance Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-narrow-stance-squat.gif",
+    "matchedName": "Barbell Narrow Stance Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Narrow Stance Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell One Arm Floor Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-one-arm-floor-press.gif",
+    "matchedName": "Barbell One Arm Floor Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell One Arm Floor Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell One Arm Side Deadlift": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-one-arm-side-deadlift.gif",
+    "matchedName": "Barbell One Arm Side Deadlift",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "lats",
+      "traps",
+      "forearms",
+      "spine"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell One Arm Side Deadlift · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell One Arm Snatch": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-one-arm-snatch.gif",
+    "matchedName": "Barbell One Arm Snatch",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "glutes",
+      "hamstrings",
+      "spine",
+      "traps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell One Arm Snatch · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell One Leg Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-one-leg-squat.gif",
+    "matchedName": "Barbell One Leg Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell One Leg Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Overhead Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-overhead-squat.gif",
+    "matchedName": "Barbell Overhead Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Overhead Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Pin Presses": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-pin-presses.gif",
+    "matchedName": "Barbell Pin Presses",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Pin Presses · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Preacher Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-preacher-curl.gif",
+    "matchedName": "Barbell Preacher Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Preacher Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Press Sit Up": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/barbell-press-sit-up.gif",
+    "matchedName": "Barbell Press Sit Up",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Press Sit Up · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Prone Incline Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-prone-incline-curl.gif",
+    "matchedName": "Barbell Prone Incline Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Prone Incline Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Pullover": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/barbell-pullover.gif",
+    "matchedName": "Barbell Pullover",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "pectorals",
+      "triceps",
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Pullover · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Pullover To Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/barbell-pullover-to-press.gif",
+    "matchedName": "Barbell Pullover To Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "triceps",
+      "delts",
+      "pectorals",
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Pullover To Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Rack Pull": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-rack-pull.gif",
+    "matchedName": "Barbell Rack Pull",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Rack Pull · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Rear Delt Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-rear-delt-raise.gif",
+    "matchedName": "Barbell Rear Delt Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Rear Delt Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Rear Delt Row": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-rear-delt-row.gif",
+    "matchedName": "Barbell Rear Delt Row",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Rear Delt Row · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Rear Lunge": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-rear-lunge.gif",
+    "matchedName": "Barbell Rear Lunge",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Rear Lunge · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Rear Lunge v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-rear-lunge-v-2.gif",
+    "matchedName": "Barbell Rear Lunge v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Rear Lunge v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Revers Wrist Curl v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/forearms/barbell-revers-wrist-curl-v-2.gif",
+    "matchedName": "Barbell Revers Wrist Curl v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "forearms",
+      "biceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Revers Wrist Curl v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Reverse Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-reverse-curl.gif",
+    "matchedName": "Barbell Reverse Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Reverse Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Reverse Grip Skullcrusher": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-reverse-grip-skullcrusher.gif",
+    "matchedName": "Barbell Reverse Grip Skullcrusher",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Reverse Grip Skullcrusher · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Reverse Preacher Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-reverse-preacher-curl.gif",
+    "matchedName": "Barbell Reverse Preacher Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Reverse Preacher Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Reverse Wrist Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/forearms/barbell-reverse-wrist-curl.gif",
+    "matchedName": "Barbell Reverse Wrist Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "forearms",
+      "biceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Reverse Wrist Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Rollerout": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/barbell-rollerout.gif",
+    "matchedName": "Barbell Rollerout",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Rollerout · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Rollerout From Bench": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/barbell-rollerout-from-bench.gif",
+    "matchedName": "Barbell Rollerout From Bench",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Rollerout From Bench · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell row": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/barbell-bent-over-row.gif",
+    "matchedName": "Barbell Bent Over Row",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "upper-back",
+      "biceps",
+      "forearms",
+      "delts",
+      "lats"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Bent Over Row · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Seated Bradford Rocky Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-seated-bradford-rocky-press.gif",
+    "matchedName": "Barbell Seated Bradford Rocky Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Seated Bradford Rocky Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Seated Calf Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/barbell-seated-calf-raise.gif",
+    "matchedName": "Barbell Seated Calf Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Seated Calf Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Seated Calf Raise 1371": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/barbell-seated-calf-raise-1371.gif",
+    "matchedName": "Barbell Seated Calf Raise 1371",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Seated Calf Raise 1371 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Seated Good Morning": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-seated-good-morning.gif",
+    "matchedName": "Barbell Seated Good Morning",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Seated Good Morning · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Seated Overhead Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-seated-overhead-press.gif",
+    "matchedName": "Barbell Seated Overhead Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Seated Overhead Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Seated Overhead Triceps Extension": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-seated-overhead-triceps-extension.gif",
+    "matchedName": "Barbell Seated Overhead Triceps Extension",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Seated Overhead Triceps Extension · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Seated Twist": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/barbell-seated-twist.gif",
+    "matchedName": "Barbell Seated Twist",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Seated Twist · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell shrug": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/traps/barbell-shrug.gif",
+    "matchedName": "Barbell Shrug",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "traps",
+      "delts",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Shrug · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Side Bent v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/barbell-side-bent-v-2.gif",
+    "matchedName": "Barbell Side Bent v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Side Bent v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Side Split Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-side-split-squat.gif",
+    "matchedName": "Barbell Side Split Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Side Split Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Side Split Squat v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-side-split-squat-v-2.gif",
+    "matchedName": "Barbell Side Split Squat v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Side Split Squat v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Single Leg Deadlift": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-single-leg-deadlift.gif",
+    "matchedName": "Barbell Single Leg Deadlift",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "lats",
+      "traps",
+      "forearms",
+      "spine"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Single Leg Deadlift · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Single Leg Split Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-single-leg-split-squat.gif",
+    "matchedName": "Barbell Single Leg Split Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Single Leg Split Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Sitted Alternate Leg Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/barbell-sitted-alternate-leg-raise.gif",
+    "matchedName": "Barbell Sitted Alternate Leg Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Sitted Alternate Leg Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Skier": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-skier.gif",
+    "matchedName": "Barbell Skier",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "abs",
+      "lats",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Skier · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Speed Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-speed-squat.gif",
+    "matchedName": "Barbell Speed Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Speed Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Split Squat v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-split-squat-v-2.gif",
+    "matchedName": "Barbell Split Squat v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Split Squat v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Squat On Knees": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-squat-on-knees.gif",
+    "matchedName": "Barbell Squat On Knees",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Squat On Knees · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Ab Rollerout": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/barbell-standing-ab-rollerout.gif",
+    "matchedName": "Barbell Standing Ab Rollerout",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Ab Rollerout · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Back Wrist Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/forearms/barbell-standing-back-wrist-curl.gif",
+    "matchedName": "Barbell Standing Back Wrist Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "forearms",
+      "biceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Back Wrist Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Bradford Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-standing-bradford-press.gif",
+    "matchedName": "Barbell Standing Bradford Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Bradford Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Calf Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/barbell-standing-calf-raise.gif",
+    "matchedName": "Barbell Standing Calf Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Calf Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Close Grip Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-standing-close-grip-curl.gif",
+    "matchedName": "Barbell Standing Close Grip Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Close Grip Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Concentration Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-standing-concentration-curl.gif",
+    "matchedName": "Barbell Standing Concentration Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Concentration Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Leg Calf Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/barbell-standing-leg-calf-raise.gif",
+    "matchedName": "Barbell Standing Leg Calf Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Leg Calf Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Overhead Triceps Extension": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-standing-overhead-triceps-extension.gif",
+    "matchedName": "Barbell Standing Overhead Triceps Extension",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Overhead Triceps Extension · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Reverse Grip Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-standing-reverse-grip-curl.gif",
+    "matchedName": "Barbell Standing Reverse Grip Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Reverse Grip Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Twist": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/barbell-standing-twist.gif",
+    "matchedName": "Barbell Standing Twist",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Twist · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Standing Wide Grip Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/barbell-standing-wide-grip-curl.gif",
+    "matchedName": "Barbell Standing Wide Grip Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Wide Grip Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Step Up": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-step-up.gif",
+    "matchedName": "Barbell Step Up",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Step Up · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Stiff Leg Good Morning": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-stiff-leg-good-morning.gif",
+    "matchedName": "Barbell Stiff Leg Good Morning",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Stiff Leg Good Morning · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Straight Leg Deadlift": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/barbell-straight-leg-deadlift.gif",
+    "matchedName": "Barbell Straight Leg Deadlift",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "hamstrings",
+      "glutes",
+      "lats",
+      "traps",
+      "forearms",
+      "spine"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Straight Leg Deadlift · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Sumo Deadlift": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-sumo-deadlift.gif",
+    "matchedName": "Barbell Sumo Deadlift",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "lats",
+      "traps",
+      "forearms",
+      "spine"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Sumo Deadlift · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Thruster": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-thruster.gif",
+    "matchedName": "Barbell Thruster",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "glutes",
+      "quads",
+      "triceps",
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Thruster · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Upright Row": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-upright-row.gif",
+    "matchedName": "Barbell Upright Row",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "biceps",
+      "forearms",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Upright Row · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Upright Row v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-upright-row-v-2.gif",
+    "matchedName": "Barbell Upright Row v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "biceps",
+      "forearms",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Upright Row v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Upright Row v3": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-upright-row-v-3.gif",
+    "matchedName": "Barbell Upright Row v3",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "biceps",
+      "forearms",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Upright Row v3 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Wide Bench Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-wide-bench-press.gif",
+    "matchedName": "Barbell Wide Bench Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Wide Bench Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Wide Grip Upright Row": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-wide-grip-upright-row.gif",
+    "matchedName": "Barbell Wide Grip Upright Row",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "biceps",
+      "forearms",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Wide Grip Upright Row · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Wide Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/barbell-wide-squat.gif",
+    "matchedName": "Barbell Wide Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Wide Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Wrist Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/forearms/barbell-wrist-curl.gif",
+    "matchedName": "Barbell Wrist Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "forearms",
+      "biceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Wrist Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Wrist Curl v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/forearms/barbell-wrist-curl-v-2.gif",
+    "matchedName": "Barbell Wrist Curl v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "forearms",
+      "biceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Wrist Curl v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Barbell Zercher Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-zercher-squat.gif",
+    "matchedName": "Barbell Zercher Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Zercher Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Bulgarian split squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-single-leg-split-squat.gif",
+    "matchedName": "Dumbbell Single Leg Split Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Single Leg Split Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable chest fly": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/cable-incline-fly.gif",
+    "matchedName": "Cable Incline Fly",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Incline Fly · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Cross Over Lateral Pulldown": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/cable-cross-over-lateral-pulldown.gif",
+    "matchedName": "Cable Cross Over Lateral Pulldown",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "biceps",
+      "forearms",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Cross Over Lateral Pulldown · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Cross Over Revers Fly": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/cable-cross-over-revers-fly.gif",
+    "matchedName": "Cable Cross Over Revers Fly",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps",
+      "upper-back"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Cross Over Revers Fly · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Cross Over Variation": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/cable-cross-over-variation.gif",
+    "matchedName": "Cable Cross Over Variation",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Cross Over Variation · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable crunch": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/cable-kneeling-crunch.gif",
+    "matchedName": "Cable Kneeling Crunch",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Kneeling Crunch · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Lateral Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/cable-lateral-raise.gif",
+    "matchedName": "Cable Lateral Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Lateral Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Seated Chest Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/cable-seated-chest-press.gif",
+    "matchedName": "Cable Seated Chest Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Seated Chest Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Seated Crunch": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/cable-seated-crunch.gif",
+    "matchedName": "Cable Seated Crunch",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Seated Crunch · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Seated Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/cable-seated-curl.gif",
+    "matchedName": "Cable Seated Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Seated Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Seated Overhead Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/cable-seated-overhead-curl.gif",
+    "matchedName": "Cable Seated Overhead Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Seated Overhead Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Seated Rear Lateral Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/cable-seated-rear-lateral-raise.gif",
+    "matchedName": "Cable Seated Rear Lateral Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Seated Rear Lateral Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Seated Shoulder Internal Rotation": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/cable-seated-shoulder-internal-rotation.gif",
+    "matchedName": "Cable Seated Shoulder Internal Rotation",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Seated Shoulder Internal Rotation · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Seated Twist": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/cable-seated-twist.gif",
+    "matchedName": "Cable Seated Twist",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Seated Twist · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Cable Seated Wide Grip Row": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/cable-seated-wide-grip-row.gif",
+    "matchedName": "Cable Seated Wide Grip Row",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "upper-back",
+      "biceps",
+      "forearms",
+      "delts",
+      "lats"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Seated Wide Grip Row · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Chest-supported row": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/dumbbell-incline-row.gif",
+    "matchedName": "Dumbbell Incline Row",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "upper-back",
+      "biceps",
+      "forearms",
+      "delts",
+      "lats"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Row · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Chin Ups Narrow Parallel Grip": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/chin-ups-narrow-parallel-grip.gif",
+    "matchedName": "Chin Ups Narrow Parallel Grip",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "upper-back",
+      "lats",
+      "biceps",
+      "forearms",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Chin Ups Narrow Parallel Grip · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Chin-up": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/chin-up.gif",
+    "matchedName": "Chin Up",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "biceps",
+      "forearms",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Chin Up · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Close-grip bench press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-close-grip-bench-press.gif",
+    "matchedName": "Barbell Close Grip Bench Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Close Grip Bench Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Conventional deadlift": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-deadlift.gif",
+    "matchedName": "Barbell Deadlift",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "lats",
+      "traps",
+      "forearms",
+      "spine"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Deadlift · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Bench Seated Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-bench-seated-press.gif",
+    "matchedName": "Dumbbell Bench Seated Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Bench Seated Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Bench Squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/dumbbell-bench-squat.gif",
+    "matchedName": "Dumbbell Bench Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Bench Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell flat bench press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-bench-press.gif",
+    "matchedName": "Dumbbell Bench Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Bench Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell goblet squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-goblet-squat.gif",
+    "matchedName": "Dumbbell Goblet Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Goblet Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell hammer curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/dumbbell-hammer-curl.gif",
+    "matchedName": "Dumbbell Hammer Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Hammer Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Alternate Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-incline-alternate-press.gif",
+    "matchedName": "Dumbbell Incline Alternate Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Alternate Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Biceps Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/dumbbell-incline-biceps-curl.gif",
+    "matchedName": "Dumbbell Incline Biceps Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Biceps Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Breeding": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-incline-breeding.gif",
+    "matchedName": "Dumbbell Incline Breeding",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Breeding · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/dumbbell-incline-curl.gif",
+    "matchedName": "Dumbbell Incline Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Curl v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/dumbbell-incline-curl-v-2.gif",
+    "matchedName": "Dumbbell Incline Curl v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Curl v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Fly": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-incline-fly.gif",
+    "matchedName": "Dumbbell Incline Fly",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Fly · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Hammer Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/dumbbell-incline-hammer-curl.gif",
+    "matchedName": "Dumbbell Incline Hammer Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Hammer Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Hammer Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-incline-hammer-press.gif",
+    "matchedName": "Dumbbell Incline Hammer Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Hammer Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Inner Biceps Curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/biceps/dumbbell-incline-inner-biceps-curl.gif",
+    "matchedName": "Dumbbell Incline Inner Biceps Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Inner Biceps Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline One Arm Fly": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-incline-one-arm-fly.gif",
+    "matchedName": "Dumbbell Incline One Arm Fly",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline One Arm Fly · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline One Arm Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-incline-one-arm-press.gif",
+    "matchedName": "Dumbbell Incline One Arm Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline One Arm Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Palm In Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-incline-palm-in-press.gif",
+    "matchedName": "Dumbbell Incline Palm In Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Palm In Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-incline-raise.gif",
+    "matchedName": "Dumbbell Incline Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Rear Lateral Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-incline-rear-lateral-raise.gif",
+    "matchedName": "Dumbbell Incline Rear Lateral Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Rear Lateral Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Shoulder Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/serratus-anterior/dumbbell-incline-shoulder-raise.gif",
+    "matchedName": "Dumbbell Incline Shoulder Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "serratus-anterior"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Shoulder Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Shrug": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/traps/dumbbell-incline-shrug.gif",
+    "matchedName": "Dumbbell Incline Shrug",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "traps",
+      "delts",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Shrug · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline T Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-incline-t-raise.gif",
+    "matchedName": "Dumbbell Incline T Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline T Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Triceps Extension": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/dumbbell-incline-triceps-extension.gif",
+    "matchedName": "Dumbbell Incline Triceps Extension",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Triceps Extension · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Twisted Flyes": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-incline-twisted-flyes.gif",
+    "matchedName": "Dumbbell Incline Twisted Flyes",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Twisted Flyes · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Two Arm Extension": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/dumbbell-incline-two-arm-extension.gif",
+    "matchedName": "Dumbbell Incline Two Arm Extension",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Two Arm Extension · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Incline Y Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/dumbbell-incline-y-raise.gif",
+    "matchedName": "Dumbbell Incline Y Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "upper-back"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Y Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell Lateral To Front Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-lateral-to-front-raise.gif",
+    "matchedName": "Dumbbell Lateral To Front Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Lateral To Front Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Dumbbell shoulder press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-seated-shoulder-press.gif",
+    "matchedName": "Dumbbell Seated Shoulder Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Seated Shoulder Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "EZ-bar skull crusher": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/barbell-lying-triceps-extension-skull-crusher.gif",
+    "matchedName": "Barbell Lying Triceps Extension Skull Crusher",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Lying Triceps Extension Skull Crusher · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Face pull": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/cable-standing-rear-delt-row-with-rope.gif",
+    "matchedName": "Cable Standing Rear Delt Row With Rope",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "biceps",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Standing Rear Delt Row With Rope · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Farmer carry": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/farmers-walk.gif",
+    "matchedName": "Farmers Walk",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Farmers Walk · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Front squat": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-front-squat.gif",
+    "matchedName": "Barbell Front Squat",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Front Squat · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Hanging Leg Hip Raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/hanging-leg-hip-raise.gif",
+    "matchedName": "Hanging Leg Hip Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Hanging Leg Hip Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Hanging leg raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/hanging-leg-raise.gif",
+    "matchedName": "Hanging Leg Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Hanging Leg Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Hip thrust": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-glute-bridge.gif",
+    "matchedName": "Barbell Glute Bridge",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Glute Bridge · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Incline barbell bench press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-incline-bench-press.gif",
+    "matchedName": "Barbell Incline Bench Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Incline Bench Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Incline dumbbell press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/dumbbell-incline-bench-press.gif",
+    "matchedName": "Dumbbell Incline Bench Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Incline Bench Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Kettlebell Swing": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/kettlebell-swing.gif",
+    "matchedName": "Kettlebell Swing",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "spine",
+      "traps",
+      "delts",
+      "forearms"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Kettlebell Swing · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Lat pulldown": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/cable-lat-pulldown-full-range-of-motion.gif",
+    "matchedName": "Cable Lat Pulldown Full Range Of Motion",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "biceps",
+      "forearms",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Lat Pulldown Full Range Of Motion · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Lateral raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-lateral-raise.gif",
+    "matchedName": "Dumbbell Lateral Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Lateral Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Leg extension": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/lever-leg-extension.gif",
+    "matchedName": "Lever Leg Extension",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "quads",
+      "glutes",
+      "hamstrings"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Leg Extension · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Leg press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/sled-45-leg-press.gif",
+    "matchedName": "Sled 45 Leg Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Sled 45 Leg Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Lever Chest Press 0577": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/lever-chest-press-0577.gif",
+    "matchedName": "Lever Chest Press 0577",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Chest Press 0577 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Lever Seated Leg Raise Crunch": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/lever-seated-leg-raise-crunch.gif",
+    "matchedName": "Lever Seated Leg Raise Crunch",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Seated Leg Raise Crunch · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Lever Shoulder Press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/lever-shoulder-press.gif",
+    "matchedName": "Lever Shoulder Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Shoulder Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Lever Shoulder Press v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/lever-shoulder-press-v-2.gif",
+    "matchedName": "Lever Shoulder Press v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Shoulder Press v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Lever Shoulder Press v3": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/lever-shoulder-press-v-3.gif",
+    "matchedName": "Lever Shoulder Press v3",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Shoulder Press v3 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Lying leg curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/lever-lying-leg-curl.gif",
+    "matchedName": "Lever Lying Leg Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Lying Leg Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Machine chest press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/lever-chest-press.gif",
+    "matchedName": "Lever Chest Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Chest Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Machine shoulder press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/lever-military-press.gif",
+    "matchedName": "Lever Military Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Military Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Overhead press": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/barbell-standing-wide-military-press.gif",
+    "matchedName": "Barbell Standing Wide Military Press",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "triceps"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Standing Wide Military Press · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Pec deck fly": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/lever-seated-fly.gif",
+    "matchedName": "Lever Seated Fly",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Seated Fly · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Pendlay row": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/barbell-pendlay-row.gif",
+    "matchedName": "Barbell Pendlay Row",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "upper-back",
+      "biceps",
+      "forearms",
+      "delts",
+      "lats"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Pendlay Row · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Plank": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/weighted-front-plank.gif",
+    "matchedName": "Weighted Front Plank",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs",
+      "delts",
+      "glutes"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Weighted Front Plank · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Pull Up Neutral Grip": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/pull-up-neutral-grip.gif",
+    "matchedName": "Pull Up Neutral Grip",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "biceps",
+      "forearms",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Pull Up Neutral Grip · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Pull-up": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/pull-up.gif",
+    "matchedName": "Pull Up",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "biceps",
+      "forearms",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Pull Up · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Push Up Inside Leg Kick": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/push-up-inside-leg-kick.gif",
+    "matchedName": "Push Up Inside Leg Kick",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Push Up Inside Leg Kick · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Push Up Medicine Ball": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up-medicine-ball.gif",
+    "matchedName": "Push Up Medicine Ball",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Push Up Medicine Ball · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Push Up On Lower Arms": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/push-up-on-lower-arms.gif",
+    "matchedName": "Push Up On Lower Arms",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Push Up On Lower Arms · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Push Up On Stability Ball": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up-on-stability-ball.gif",
+    "matchedName": "Push Up On Stability Ball",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Push Up On Stability Ball · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Push Up Plus": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up-plus.gif",
+    "matchedName": "Push Up Plus",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Push Up Plus · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Push Up To Side Plank": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/push-up-to-side-plank.gif",
+    "matchedName": "Push Up To Side Plank",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "abs",
+      "triceps",
+      "delts",
+      "glutes"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Push Up To Side Plank · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Push Up Wall": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up-wall.gif",
+    "matchedName": "Push Up Wall",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Push Up Wall · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Push Up Wall v2": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up-wall-v-2.gif",
+    "matchedName": "Push Up Wall v2",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Push Up Wall v2 · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Push-up": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up.gif",
+    "matchedName": "Push Up",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "pectorals",
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Push Up · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Rear delt fly": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-reverse-fly.gif",
+    "matchedName": "Dumbbell Reverse Fly",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps",
+      "upper-back"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Dumbbell Reverse Fly · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Reverse pec deck fly": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/lever-seated-reverse-fly.gif",
+    "matchedName": "Lever Seated Reverse Fly",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "delts",
+      "traps",
+      "upper-back"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Seated Reverse Fly · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Reverse-grip lat pulldown": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/reverse-grip-machine-lat-pulldown.gif",
+    "matchedName": "Reverse Grip Machine Lat Pulldown",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "lats",
+      "biceps",
+      "forearms",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Reverse Grip Machine Lat Pulldown · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Romanian deadlift": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-romanian-deadlift.gif",
+    "matchedName": "Barbell Romanian Deadlift",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "lats",
+      "traps",
+      "forearms",
+      "spine"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Barbell Romanian Deadlift · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Seated cable row": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/upper-back/cable-seated-row.gif",
+    "matchedName": "Cable Seated Row",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "upper-back",
+      "biceps",
+      "forearms",
+      "delts",
+      "lats"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Seated Row · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Seated leg curl": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/lever-seated-leg-curl.gif",
+    "matchedName": "Lever Seated Leg Curl",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Seated Leg Curl · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Standing calf raise": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/lever-standing-calf-raise.gif",
+    "matchedName": "Lever Standing Calf Raise",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Lever Standing Calf Raise · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Tricep rope pushdown": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/triceps/cable-triceps-pushdown-v-bar.gif",
+    "matchedName": "Cable Triceps Pushdown V Bar",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "triceps",
+      "delts"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Cable Triceps Pushdown V Bar · ExerciseGymGifsDB (jsDelivr)"
+  },
+  "Walking lunge": {
+    "gifUrl": "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/walking-lunge.gif",
+    "matchedName": "Walking Lunge",
+    "method": "catalog",
+    "score": 100,
+    "focus_muscles": [
+      "glutes",
+      "hamstrings",
+      "calves"
+    ],
+    "video_source": "gifdb",
+    "video_attribution": "Walking Lunge · ExerciseGymGifsDB (jsDelivr)"
+  }
+}

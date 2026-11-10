@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Train &amp; Track">
+  <rect width="512" height="512" rx="96" fill="#ffffff"/>
+  <rect x="32" y="32" width="448" height="448" rx="80" fill="#eef3f9" stroke="#e8ebf0" stroke-width="4"/>
+  <path
+    fill="none"
+    stroke="#243247"
+    stroke-width="22"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M128 232h56M328 232h56M184 200v64M328 200v64M212 264h88"
+  />
+  <text
+    x="256"
+    y="392"
+    text-anchor="middle"
+    fill="#152238"
+    font-family="system-ui,sans-serif"
+    font-size="44"
+    font-weight="700"
+  >
+    T&amp;T
+  </text>
+</svg>
