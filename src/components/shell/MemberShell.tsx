@@ -45,11 +45,10 @@ export function MemberShell({
         {children}
       </main>
 
-      <div
-        className="z-40 shrink-0 px-3 pb-3"
-        style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom, 0px))" }}
-      >
-        <MemberNav showAdmin={isAdmin} onPendingChange={setNavPending} />
+      <div className="member-tabbar-fixed">
+        <div className="member-tabbar-inner">
+          <MemberNav showAdmin={isAdmin} onPendingChange={setNavPending} />
+        </div>
       </div>
     </div>
   );
