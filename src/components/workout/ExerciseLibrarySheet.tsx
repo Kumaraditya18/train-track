@@ -70,7 +70,7 @@ export function ExerciseLibrarySheet({
   return (
     <div className="sheet-backdrop fixed inset-0 z-50 flex items-end justify-center sm:items-center" role="dialog" aria-modal="true">
       <button type="button" className="sheet-scrim absolute inset-0" aria-label="Close" onClick={onClose} />
-      <div className="sheet-panel glass-chrome relative z-10 w-full max-w-lg rounded-t-[1.75rem] p-4 sm:rounded-[1.75rem]">
+      <div className="sheet-panel relative z-10 w-full max-w-lg rounded-t-[1.75rem] p-4 sm:rounded-[1.75rem]">
         <div className="mb-3 flex items-center justify-between gap-2">
           <h2 className="type-section">Add exercise</h2>
           <Button type="button" variant="ghost" className="px-2" onClick={onClose}>
@@ -94,7 +94,7 @@ export function ExerciseLibrarySheet({
             <Chip key={g} active={muscle === g} onClick={() => setMuscle(g)} label={g} />
           ))}
         </div>
-        <ul className="max-h-56 space-y-0.5 overflow-y-auto overscroll-contain">
+        <ul className="sheet-list max-h-56 space-y-0.5 overflow-y-auto overscroll-contain rounded-xl border border-line/80 p-1">
           {loading ? (
             <li className="px-3 py-6 text-center text-sm text-muted">Loading…</li>
           ) : results.length === 0 ? (

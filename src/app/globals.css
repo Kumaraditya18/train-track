@@ -337,10 +337,41 @@ textarea {
   background: var(--overlay);
 }
 
+.sheet-backdrop .sheet-scrim {
+  background: rgb(18 28 48 / 0.58);
+  -webkit-backdrop-filter: blur(10px) saturate(105%);
+  backdrop-filter: blur(10px) saturate(105%);
+}
+
 .sheet-panel {
   animation: sheet-up var(--m-in) var(--m-ease-enter) both;
   max-height: min(85dvh, 520px);
   transform: translateZ(0);
+}
+
+.sheet-backdrop .sheet-panel {
+  border-color: rgb(255 255 255 / 0.88);
+  background-color: rgb(246 248 252 / 0.97);
+  -webkit-backdrop-filter: blur(28px) saturate(118%);
+  backdrop-filter: blur(28px) saturate(118%);
+  box-shadow:
+    0 28px 72px rgb(20 40 80 / 0.22),
+    0 8px 24px rgb(0 0 0 / 0.1),
+    inset 0 1px 0 rgb(255 255 255 / 1),
+    inset 0 -1px 0 rgb(255 255 255 / 0.65);
+}
+
+.sheet-backdrop .sheet-panel::before {
+  opacity: 0.22;
+}
+
+.sheet-backdrop .field-input {
+  border-color: rgb(255 255 255 / 0.9);
+  background-color: rgb(255 255 255 / 0.92);
+}
+
+.sheet-list {
+  background: rgb(255 255 255 / 0.72);
 }
 
 @keyframes sheet-up {
@@ -635,6 +666,20 @@ html:not([data-motion="off"]) .link-accent:is(:hover, :focus-visible) {
     background: rgb(255 255 255 / 0.88);
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
+  }
+
+  .sheet-backdrop .sheet-scrim {
+    background: rgb(18 28 48 / 0.72);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .sheet-backdrop .sheet-panel {
+    background: rgb(248 250 252 / 0.98);
+  }
+
+  .sheet-list {
+    background: rgb(255 255 255 / 0.95);
   }
 
   .glass::before,
