@@ -117,6 +117,8 @@ export async function saveRoutineItems(routineId: string, formData: FormData): P
 
   if (items.length === 0) {
     revalidatePath(`/admin/routines/${routineId}`);
+    revalidatePath("/workout");
+    revalidatePath("/dashboard");
     return {};
   }
 
@@ -134,5 +136,6 @@ export async function saveRoutineItems(routineId: string, formData: FormData): P
   if (error) return { error: error.message };
   revalidatePath(`/admin/routines/${routineId}`);
   revalidatePath("/workout");
+  revalidatePath("/dashboard");
   return {};
 }
