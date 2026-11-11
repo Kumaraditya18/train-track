@@ -37,7 +37,7 @@ create table if not exists public.routine_items (
   exercise_id uuid not null references public.exercises (id) on delete restrict,
   sort_order int not null,
   target_sets int not null default 3 check (target_sets > 0),
-  rep_floor int not null default 5 check (rep_floor > 0),
+  rep_floor int not null default 8 check (rep_floor > 0),
   rep_ceiling int not null default 12 check (rep_ceiling > 0),
   unique (routine_id, exercise_id),
   check (rep_ceiling >= rep_floor)
@@ -58,7 +58,7 @@ create table if not exists public.session_exercises (
   exercise_id uuid not null references public.exercises (id) on delete restrict,
   sort_order int not null,
   target_sets int not null default 3 check (target_sets > 0),
-  rep_floor int not null default 5 check (rep_floor > 0),
+  rep_floor int not null default 8 check (rep_floor > 0),
   rep_ceiling int not null default 12 check (rep_ceiling > 0),
   unique (session_id, exercise_id),
   check (rep_ceiling >= rep_floor)

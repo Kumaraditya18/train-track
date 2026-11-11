@@ -7,7 +7,7 @@ export type RepBand = {
   repMax: number;
 };
 
-export const DEFAULT_REP_BAND: RepBand = { repMin: 5, repMax: 12 };
+export const DEFAULT_REP_BAND: RepBand = { repMin: 8, repMax: 12 };
 
 type NamedLog = SetLog & { exercise_name?: string };
 

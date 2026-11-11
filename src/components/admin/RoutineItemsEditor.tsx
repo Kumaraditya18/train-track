@@ -46,7 +46,7 @@ export function RoutineItemsEditor({
         exercise_id: exerciseId,
         sort_order: prev.length + 1,
         target_sets: 3,
-        rep_floor: 5,
+        rep_floor: 8,
         rep_ceiling: 12,
       },
     ]);

@@ -63,10 +63,10 @@ patch_rep_floor_via_rest() {
     -H "Prefer: return=minimal"
   )
   for table in routine_items session_exercises; do
-    curl -s -o /dev/null -w "${table} rep_floor 8→5: HTTP %{http_code}\n" \
-      -X PATCH "${NEXT_PUBLIC_SUPABASE_URL}/rest/v1/${table}?rep_floor=eq.8" \
+    curl -s -o /dev/null -w "${table} rep_floor 5→8: HTTP %{http_code}\n" \
+      -X PATCH "${NEXT_PUBLIC_SUPABASE_URL}/rest/v1/${table}?rep_floor=eq.5" \
       "${hdr[@]}" \
-      -d '{"rep_floor":5}'
+      -d '{"rep_floor":8}'
   done
 }
 

@@ -13,5 +13,5 @@ alter table public.session_exercises drop constraint if exists session_exercises
 alter table public.session_exercises
   add constraint session_exercises_rep_band check (rep_ceiling >= rep_floor);
 
-alter table public.routine_items alter column rep_floor set default 5;
-alter table public.session_exercises alter column rep_floor set default 5;
+alter table public.routine_items alter column rep_floor set default 8;
+alter table public.session_exercises alter column rep_floor set default 8;

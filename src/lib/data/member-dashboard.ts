@@ -73,7 +73,7 @@ export async function loadMemberDashboard(userId: string) {
 
   for (const best of weeklyBests) {
     if (!repBands.has(best.exerciseId)) {
-      repBands.set(best.exerciseId, { name: best.exerciseName, repMin: 5, repMax: 12 });
+      repBands.set(best.exerciseId, { name: best.exerciseName, repMin: 8, repMax: 12 });
     }
   }
 
