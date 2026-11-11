@@ -53,7 +53,8 @@ export async function addExerciseToSession(
     exercise_id: exerciseId,
     sort_order: sortOrder,
     target_sets: 3,
-    rep_floor: 8,
+    rep_floor: 5,
+    rep_ceiling: 12,
   });
 
   if (error) {

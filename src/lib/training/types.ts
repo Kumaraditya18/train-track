@@ -31,6 +31,7 @@ export type RoutineItem = {
   sort_order: number;
   target_sets: number;
   rep_floor: number;
+  rep_ceiling: number;
   exercise?: Exercise;
 };
 
@@ -68,5 +69,6 @@ export type OverloadHint = {
   lastWeek: WeeklyBest | null;
   thisWeek: WeeklyBest | null;
   repFloor: number;
+  repCeiling: number;
   suggestion: string;
 };

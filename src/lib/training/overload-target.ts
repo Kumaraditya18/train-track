@@ -1,16 +1,20 @@
 import { previousIsoWeekKey } from "@/lib/dates/iso-week";
+import { suggestionFromBest, type RepBand } from "@/lib/training/set-progression";
 import { bestForWeek } from "@/lib/training/weekly-max";
 import type { OverloadHint, WeeklyBest } from "@/lib/training/types";
 
+export type RepBandByExercise = Map<string, RepBand & { name: string }>;
+
 export function buildOverloadHints(input: {
   weekKey: string;
-  repFloorsByExercise: Map<string, { name: string; repFloor: number }>;
+  repBandsByExercise: RepBandByExercise;
   weeklyBests: WeeklyBest[];
 }): OverloadHint[] {
   const prevKey = previousIsoWeekKey(input.weekKey);
   const hints: OverloadHint[] = [];
 
-  for (const [exerciseId, meta] of input.repFloorsByExercise) {
+  for (const [exerciseId, meta] of input.repBandsByExercise) {
+    const band: RepBand = { repMin: meta.repMin, repMax: meta.repMax };
     const thisWeek = bestForWeek(input.weeklyBests, exerciseId, input.weekKey);
     const lastWeek = bestForWeek(input.weeklyBests, exerciseId, prevKey);
     hints.push({
@@ -18,31 +22,26 @@ export function buildOverloadHints(input: {
       exerciseName: meta.name,
       lastWeek,
       thisWeek,
-      repFloor: meta.repFloor,
-      suggestion: suggestNext(lastWeek, thisWeek, meta.repFloor),
+      repFloor: meta.repMin,
+      repCeiling: meta.repMax,
+      suggestion: suggestNext(lastWeek, thisWeek, band),
     });
   }
 
   return hints.sort((a, b) => a.exerciseName.localeCompare(b.exerciseName));
 }
 
-function suggestNext(
-  lastWeek: WeeklyBest | null,
-  thisWeek: WeeklyBest | null,
-  repFloor: number,
-): string {
+function suggestNext(lastWeek: WeeklyBest | null, thisWeek: WeeklyBest | null, band: RepBand): string {
   if (!lastWeek && !thisWeek) {
-    return "Log your first working sets this week.";
+    return `Log working sets (aim ${band.repMin}–${band.repMax} reps per set).`;
   }
   if (!thisWeek) {
     return lastWeek
-      ? `Aim to match or beat ${lastWeek.topWeightKg} kg × ${lastWeek.repsAtTopWeight} reps.`
-      : "Start with a weight you can control for your target reps.";
+      ? `Last week ${lastWeek.topWeightKg} kg × ${lastWeek.repsAtTopWeight}. Match or beat it — aim ${band.repMin}–${band.repMax} reps.`
+      : `Start with a weight you can control for ${band.repMin}–${band.repMax} reps.`;
   }
   if (!lastWeek) {
-    return thisWeek.repsAtTopWeight >= repFloor
-      ? `Strong start. Next session try ${thisWeek.topWeightKg + 2.5} kg or add 1–2 reps at ${thisWeek.topWeightKg} kg.`
-      : `Build to ${repFloor}+ reps at ${thisWeek.topWeightKg} kg before adding weight.`;
+    return suggestionFromBest(thisWeek.topWeightKg, thisWeek.repsAtTopWeight, band);
   }
 
   const beatWeight = thisWeek.topWeightKg > lastWeek.topWeightKg;
@@ -51,12 +50,8 @@ function suggestNext(
     thisWeek.repsAtTopWeight > lastWeek.repsAtTopWeight;
 
   if (beatWeight || sameWeightMoreReps) {
-    return "Progress logged — keep the same plan or add a small jump next week.";
+    return `This week ${thisWeek.topWeightKg} kg × ${thisWeek.repsAtTopWeight}. ${suggestionFromBest(thisWeek.topWeightKg, thisWeek.repsAtTopWeight, band)}`;
   }
 
-  if (thisWeek.repsAtTopWeight >= repFloor) {
-    return `Try ${lastWeek.topWeightKg + 2.5} kg for ${Math.max(repFloor - 1, 6)}–${repFloor} reps.`;
-  }
-
-  return `Stay at ${thisWeek.topWeightKg} kg until you hit ${repFloor} reps, then add 2.5 kg.`;
+  return suggestionFromBest(thisWeek.topWeightKg, thisWeek.repsAtTopWeight, band);
 }

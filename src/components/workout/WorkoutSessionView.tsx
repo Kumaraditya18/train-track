@@ -5,6 +5,7 @@ import { resolveExerciseMedia } from "@/lib/exercise/resolve-gif";
 import { ExerciseGuidePanel } from "@/components/workout/ExerciseGuidePanel";
 import { ExerciseLibrarySheet } from "@/components/workout/ExerciseLibrarySheet";
 import { SetLogForm } from "@/components/workout/SetLogForm";
+import type { ExerciseProgression } from "@/lib/training/set-progression";
 import { Button } from "@/components/ui/Button";
 import { IconCheck, IconChevronDown } from "@/components/ui/icons";
 import { useEffect, useMemo, useState, useTransition } from "react";
@@ -20,6 +21,7 @@ export type WorkoutExercise = {
   focus_muscles?: string[] | null;
   target_sets: number;
   rep_floor: number;
+  rep_ceiling: number;
   isPlanned: boolean;
 };
 
@@ -43,12 +45,14 @@ export function WorkoutSessionView({
   isRoutineSession,
   exercises,
   nextSetByExercise,
+  progressionByExerciseId = {},
 }: {
   sessionId: string;
   finished: boolean;
   isRoutineSession: boolean;
   exercises: WorkoutExercise[];
   nextSetByExercise: Record<string, number>;
+  progressionByExerciseId?: Record<string, ExerciseProgression>;
 }) {
   const [activeId, setActiveId] = useState<string | null>(() =>
     defaultActiveId(exercises, nextSetByExercise),
@@ -81,7 +85,7 @@ export function WorkoutSessionView({
   const nextSet = current ? (nextSetByExercise[current.id] ?? 1) : 1;
   const extraSets = current ? (extraSetsById[current.id] ?? 0) : 0;
   const plannedSets = current ? current.target_sets + extraSets : 0;
-  const pastPlan = current ? nextSet > plannedSets : false;
+  const plannedSetsDone = current ? nextSet > plannedSets : false;
 
   const currentMedia = useMemo(() => {
     if (!current) return null;
@@ -105,6 +109,15 @@ export function WorkoutSessionView({
   function goTo(id: string) {
     setActiveId(id);
     setQueueOpen(false);
+  }
+
+  function handleSetLogged({ exerciseId, setIndex }: { exerciseId: string; setIndex: number }) {
+    if (!current || exerciseId !== current.id) return;
+    const planned = current.target_sets + (extraSetsById[exerciseId] ?? 0);
+    if (setIndex < planned) return;
+    const idx = exercises.findIndex((e) => e.id === exerciseId);
+    const following = idx >= 0 ? exercises[idx + 1] : null;
+    if (following) goTo(following.id);
   }
 
   if (exercises.length === 0) {
@@ -143,7 +156,10 @@ export function WorkoutSessionView({
               <p className="text-xs text-muted">
                 {current.isPlanned ? "Planned" : "Extra"}
                 {current.muscle_group ? ` · ${current.muscle_group}` : ""}
-                <span className="text-faint"> · aim {current.rep_floor}+ reps</span>
+                <span className="text-faint">
+                  {" "}
+                  · aim {current.rep_floor}–{current.rep_ceiling} reps
+                </span>
               </p>
               <h2 className="type-card-title text-[1.125rem]">{current.name}</h2>
             </div>
@@ -173,8 +189,36 @@ export function WorkoutSessionView({
           <SetProgress current={nextSet} planned={plannedSets} baseTarget={current.target_sets} />
 
           {!finished ? (
+            <div className="mt-3 space-y-1 rounded-xl border border-line bg-elevated/80 px-3 py-2">
+              {progressionByExerciseId[current.id] ? (
+                <>
+                  <p className="type-caption text-fg">{progressionByExerciseId[current.id].bestLine}</p>
+                  <p className="type-caption text-soft">{progressionByExerciseId[current.id].suggestion}</p>
+                </>
+              ) : (
+                <p className="type-caption text-muted">
+                  No sets logged yet — pick a weight you can hit for {current.rep_floor}–{current.rep_ceiling}{" "}
+                  reps.
+                </p>
+              )}
+            </div>
+          ) : null}
+
+          {!finished ? (
             <>
-              <SetLogForm sessionId={sessionId} exerciseId={current.id} nextSetIndex={nextSet} pastTarget={pastPlan} />
+              {plannedSetsDone ? (
+                <p className="surface-sm mt-3 p-3 text-center text-sm text-muted">
+                  Planned sets complete for this move.
+                </p>
+              ) : (
+                <SetLogForm
+                  sessionId={sessionId}
+                  exerciseId={current.id}
+                  nextSetIndex={nextSet}
+                  pastTarget={false}
+                  onLogged={handleSetLogged}
+                />
+              )}
               <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
                 <button
                   type="button"

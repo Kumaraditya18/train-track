@@ -3,23 +3,33 @@
 import { logSet } from "@/app/actions/workouts";
 import { Button } from "@/components/ui/Button";
 import { Input, Label } from "@/components/ui/Field";
-import { useActionState } from "react";
+import { useActionState, useEffect, useRef } from "react";
 
 export function SetLogForm({
   sessionId,
   exerciseId,
   nextSetIndex,
   pastTarget = false,
+  onLogged,
 }: {
   sessionId: string;
   exerciseId: string;
   nextSetIndex: number;
   pastTarget?: boolean;
+  onLogged?: (payload: { exerciseId: string; setIndex: number }) => void;
 }) {
   const [state, action, pending] = useActionState(
     async (_prev: { error?: string }, formData: FormData) => logSet(sessionId, formData),
     {},
   );
+  const wasPending = useRef(false);
+
+  useEffect(() => {
+    if (wasPending.current && !pending && !state.error) {
+      onLogged?.({ exerciseId, setIndex: nextSetIndex });
+    }
+    wasPending.current = pending;
+  }, [pending, state.error, exerciseId, nextSetIndex, onLogged]);
 
   return (
     <form action={action} className="surface-sm mt-3 space-y-3 p-3">
@@ -38,6 +48,7 @@ export function SetLogForm({
             step="0.5"
             required
             placeholder="0"
+            key={`${exerciseId}-${nextSetIndex}`}
             className="text-lg font-semibold tabular-nums"
           />
         </div>

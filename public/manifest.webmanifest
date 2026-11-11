@@ -4,8 +4,8 @@
   "description": "Log sets, follow routines, and track weekly strength progress.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#eef3f9",
+  "background_color": "#eef2f6",
+  "theme_color": "#eef2f6",
   "icons": [
     {
       "src": "/icon.svg",

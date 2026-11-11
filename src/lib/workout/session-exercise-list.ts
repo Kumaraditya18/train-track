@@ -6,6 +6,7 @@ type ItemRow = RoutineItem & { exercises: Exercise | Exercise[] | null };
 type SessionRow = {
   target_sets: number;
   rep_floor: number;
+  rep_ceiling?: number;
   sort_order: number;
   exercises: Exercise | Exercise[] | null;
 };
@@ -14,6 +15,7 @@ function mapExercise(
   ex: Exercise,
   target_sets: number,
   rep_floor: number,
+  rep_ceiling: number,
   isPlanned: boolean,
 ): WorkoutExercise {
   return {
@@ -27,6 +29,7 @@ function mapExercise(
     focus_muscles: null,
     target_sets,
     rep_floor,
+    rep_ceiling,
     isPlanned,
   };
 }
@@ -48,14 +51,14 @@ export function mergeSessionExercises(
   const planned =
     (routineItems ?? []).flatMap((item) =>
       flattenJoin(item, (ex, row) =>
-        mapExercise(ex, row.target_sets, row.rep_floor, true),
+        mapExercise(ex, row.target_sets, row.rep_floor, row.rep_ceiling ?? 12, true),
       ),
     ) ?? [];
 
   if (!isRoutineSession) {
     return (sessionExtras ?? []).flatMap((item) =>
       flattenJoin(item, (ex, row) =>
-        mapExercise(ex, row.target_sets, row.rep_floor, true),
+        mapExercise(ex, row.target_sets, row.rep_floor, row.rep_ceiling ?? 12, true),
       ),
     );
   }
@@ -64,7 +67,7 @@ export function mergeSessionExercises(
   const extras = (sessionExtras ?? []).flatMap((item) => {
     const ex = Array.isArray(item.exercises) ? item.exercises[0] : item.exercises;
     if (!ex || plannedIds.has(ex.id)) return [];
-    return [mapExercise(ex, item.target_sets, item.rep_floor, false)];
+    return [mapExercise(ex, item.target_sets, item.rep_floor, item.rep_ceiling ?? 12, false)];
   });
 
   return [...planned, ...extras];

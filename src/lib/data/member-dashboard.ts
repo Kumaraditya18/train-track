@@ -1,8 +1,8 @@
 import { fetchSetLogsWithNames } from "@/lib/data/set-logs";
 import { loadMemberToday } from "@/lib/dates/member-today";
-import { buildOverloadHints } from "@/lib/training/overload-target";
+import { buildOverloadHints, type RepBandByExercise } from "@/lib/training/overload-target";
 import { weeklyBestsFromLogs } from "@/lib/training/weekly-max";
-import type { OverloadHint, WorkoutSession } from "@/lib/training/types";
+import type { WorkoutSession } from "@/lib/training/types";
 import { createClient } from "@/lib/supabase/server";
 
 export async function loadMemberDashboard(userId: string) {
@@ -13,9 +13,11 @@ export async function loadMemberDashboard(userId: string) {
   const todayRoutineItemsQuery = today.todaysRoutine
     ? supabase
         .from("routine_items")
-        .select("exercise_id, rep_floor, exercises(name)")
+        .select("exercise_id, rep_floor, rep_ceiling, exercises(name)")
         .eq("routine_id", today.todaysRoutine.id)
-    : Promise.resolve({ data: [] as { exercise_id: string; rep_floor: number; exercises: unknown }[] });
+    : Promise.resolve({
+        data: [] as { exercise_id: string; rep_floor: number; rep_ceiling: number; exercises: unknown }[],
+      });
 
   const [{ data: recentSessions }, logsPack, todayItemsResult] = await Promise.all([
     supabase
@@ -34,43 +36,50 @@ export async function loadMemberDashboard(userId: string) {
     exerciseIds.add(item.exercise_id);
   }
 
-  const repFloors = new Map<string, { name: string; repFloor: number }>();
+  const repBands: RepBandByExercise = new Map();
 
   for (const item of todayItemsResult.data ?? []) {
     const exJoin = item.exercises as { name: string } | { name: string }[] | null;
     const name = Array.isArray(exJoin) ? exJoin[0]?.name : exJoin?.name;
     if (!name) continue;
-    repFloors.set(item.exercise_id, { name, repFloor: item.rep_floor });
+    repBands.set(item.exercise_id, {
+      name,
+      repMin: item.rep_floor,
+      repMax: item.rep_ceiling ?? 12,
+    });
   }
 
-  const missingRepFloorIds = [...exerciseIds].filter((id) => !repFloors.has(id));
-  if (missingRepFloorIds.length > 0) {
+  const missingIds = [...exerciseIds].filter((id) => !repBands.has(id));
+  if (missingIds.length > 0) {
     const { data: routineItems } = await supabase
       .from("routine_items")
-      .select("exercise_id, rep_floor, exercises(name)")
-      .in("exercise_id", missingRepFloorIds);
+      .select("exercise_id, rep_floor, rep_ceiling, exercises(name)")
+      .in("exercise_id", missingIds);
 
     for (const item of routineItems ?? []) {
       const exJoin = item.exercises as { name: string } | { name: string }[] | null;
       const name = Array.isArray(exJoin) ? exJoin[0]?.name : exJoin?.name;
       if (!name) continue;
-      if (!repFloors.has(item.exercise_id)) {
-        repFloors.set(item.exercise_id, { name, repFloor: item.rep_floor });
-      }
+      const prev = repBands.get(item.exercise_id);
+      repBands.set(item.exercise_id, {
+        name,
+        repMin: prev ? Math.max(prev.repMin, item.rep_floor) : item.rep_floor,
+        repMax: prev ? Math.max(prev.repMax, item.rep_ceiling ?? 12) : (item.rep_ceiling ?? 12),
+      });
     }
   }
 
   const weeklyBests = weeklyBestsFromLogs(namedLogs);
 
   for (const best of weeklyBests) {
-    if (!repFloors.has(best.exerciseId)) {
-      repFloors.set(best.exerciseId, { name: best.exerciseName, repFloor: 8 });
+    if (!repBands.has(best.exerciseId)) {
+      repBands.set(best.exerciseId, { name: best.exerciseName, repMin: 5, repMax: 12 });
     }
   }
 
-  const hints: OverloadHint[] = buildOverloadHints({
+  const hints = buildOverloadHints({
     weekKey,
-    repFloorsByExercise: repFloors,
+    repBandsByExercise: repBands,
     weeklyBests,
   });
 

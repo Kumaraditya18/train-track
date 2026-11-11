@@ -59,7 +59,7 @@ export default async function DashboardPage() {
             hints.slice(0, 4).map((hint) => (
               <li key={hint.exerciseId} className="surface rounded-xl px-4 py-3">
                 <p className="type-body-strong">{hint.exerciseName}</p>
-                <p className="type-caption mt-1 text-muted">{hint.suggestion}</p>
+                <p className="type-caption mt-1 text-soft">{hint.suggestion}</p>
               </li>
             ))
           )}

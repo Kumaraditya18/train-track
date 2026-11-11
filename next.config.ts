@@ -2,10 +2,20 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* Auth + Supabase need request-time rendering */
+  allowedDevOrigins: ["127.0.0.1", "localhost"],
   cacheComponents: false,
   poweredByHeader: false,
   compress: true,
   async headers() {
+    /* Aggressive static caching breaks Turbopack HMR and shows “old CSS” in dev. */
+    if (process.env.NODE_ENV !== "production") {
+      return [
+        {
+          source: "/_next/:path*",
+          headers: [{ key: "Cache-Control", value: "no-store, must-revalidate" }],
+        },
+      ];
+    }
     return [
       {
         source: "/_next/static/:path*",

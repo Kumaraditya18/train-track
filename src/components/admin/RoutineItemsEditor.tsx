@@ -11,6 +11,7 @@ type EditableItem = {
   sort_order: number;
   target_sets: number;
   rep_floor: number;
+  rep_ceiling: number;
 };
 
 const selectClass =
@@ -25,7 +26,12 @@ export function RoutineItemsEditor({
   exercises: Exercise[];
   initialItems: EditableItem[];
 }) {
-  const [items, setItems] = useState<EditableItem[]>(initialItems);
+  const [items, setItems] = useState<EditableItem[]>(() =>
+    initialItems.map((item) => ({
+      ...item,
+      rep_ceiling: item.rep_ceiling ?? 12,
+    })),
+  );
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
@@ -40,7 +46,8 @@ export function RoutineItemsEditor({
         exercise_id: exerciseId,
         sort_order: prev.length + 1,
         target_sets: 3,
-        rep_floor: 8,
+        rep_floor: 5,
+        rep_ceiling: 12,
       },
     ]);
   }
@@ -105,7 +112,7 @@ export function RoutineItemsEditor({
                   Remove
                 </button>
               </div>
-              <div className="mt-3 grid grid-cols-2 gap-3 text-sm">
+              <div className="mt-3 grid grid-cols-3 gap-3 text-sm">
                 <div>
                   <Label htmlFor={`sets-${index}`}>Sets</Label>
                   <Input
@@ -117,13 +124,23 @@ export function RoutineItemsEditor({
                   />
                 </div>
                 <div>
-                  <Label htmlFor={`reps-${index}`}>Rep floor</Label>
+                  <Label htmlFor={`reps-min-${index}`}>Rep floor (min)</Label>
                   <Input
-                    id={`reps-${index}`}
+                    id={`reps-min-${index}`}
                     type="number"
                     min={1}
                     value={item.rep_floor}
                     onChange={(e) => updateItem(index, { rep_floor: Number(e.target.value) })}
+                  />
+                </div>
+                <div>
+                  <Label htmlFor={`reps-max-${index}`}>Rep ceiling (max)</Label>
+                  <Input
+                    id={`reps-max-${index}`}
+                    type="number"
+                    min={1}
+                    value={item.rep_ceiling ?? 12}
+                    onChange={(e) => updateItem(index, { rep_ceiling: Number(e.target.value) })}
                   />
                 </div>
               </div>

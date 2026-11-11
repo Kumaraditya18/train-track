@@ -19,7 +19,7 @@ export default async function AdminRoutineDetailPage({
     supabase.from("exercises").select("id, name, muscle_group").order("name"),
     supabase
       .from("routine_items")
-      .select("exercise_id, sort_order, target_sets, rep_floor")
+      .select("exercise_id, sort_order, target_sets, rep_floor, rep_ceiling")
       .eq("routine_id", routineId)
       .order("sort_order"),
   ]);
@@ -56,7 +56,15 @@ export default async function AdminRoutineDetailPage({
         <RoutineItemsEditor
           routineId={routineId}
           exercises={(exercises as Exercise[]) ?? []}
-          initialItems={(items as { exercise_id: string; sort_order: number; target_sets: number; rep_floor: number }[]) ?? []}
+          initialItems={
+            (items as {
+              exercise_id: string;
+              sort_order: number;
+              target_sets: number;
+              rep_floor: number;
+              rep_ceiling: number;
+            }[]) ?? []
+          }
         />
       </section>
     </div>

@@ -102,6 +102,7 @@ export async function saveRoutineItems(routineId: string, formData: FormData): P
     sort_order: number;
     target_sets: number;
     rep_floor: number;
+    rep_ceiling: number;
   }[];
 
   try {
@@ -126,6 +127,7 @@ export async function saveRoutineItems(routineId: string, formData: FormData): P
       sort_order: item.sort_order,
       target_sets: item.target_sets,
       rep_floor: item.rep_floor,
+      rep_ceiling: item.rep_ceiling ?? 12,
     })),
   );
 

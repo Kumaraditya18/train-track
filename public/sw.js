@@ -1,4 +1,4 @@
-const CACHE = "train-and-track-v18";
+const CACHE = "train-and-track-v22";
 const SHELL = ["/", "/manifest.webmanifest", "/icon.svg"];
 
 function isNextAsset(url) {
